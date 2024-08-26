@@ -12,7 +12,7 @@ const App = () => {
             <WelcomeMessage username={users[0].userName}/>
             <div className="flex justify-between px-10">
                 <Profile username={users[0].userName}/>
-                <UserData username={users[0].userName}/>
+                <UserData/>
             </div>
             <div className="flex justify-center items-center h-40 bg-gray-100 space-x-5">
                 <RegisterCard/>
